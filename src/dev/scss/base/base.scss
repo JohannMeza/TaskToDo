@@ -1,0 +1,60 @@
+// --- Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--bg-purple-hight);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+span, a {
+  display: inline-block;
+}
+
+input, textarea, button {
+  display: block;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator,
+input[type="number"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+input::placeholder {
+  color: var(--c-purple-extra-light);
+  opacity: .3;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}

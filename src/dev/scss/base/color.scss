@@ -1,0 +1,84 @@
+:root {
+  // --- Color naranja
+  --color-orange-700:  #a84829;
+  --color-orange-600:  #c55833;
+  --color-orange-500:  #ee6e43;
+  --color-orange-400:  #FF8C66;
+  --color-orange-300:  #ffac90;
+  --color-orange-200:  #ffc2ae;
+  --color-orange-100:  #ffe6dd;
+
+  // --- color morado
+  --color-purple-700: #0F1424;
+  --color-purple-600: #1C1F4A;
+  --color-purple-500: #323986;
+  --color-purple-400: #5247BD;
+  --color-purple-300: #7536D3;
+  --color-purple-200: #9d68ec;
+  --color-purple-100: #BDC1FF;
+  
+  // --- color celeste
+  --color-light-blue-700: #1a5e75;
+  --color-light-blue-600: #256980;
+  --color-light-blue-500: #389ec0;
+  --color-light-blue-400: #56C2E6;
+  --color-light-blue-300: #7cd4f1;
+  --color-light-blue-200: #94d6ec;
+  --color-light-blue-100: #b2e8fa;
+  
+  // --- color rojo
+  --color-red-700: #7e1f32;
+  --color-red-600: #96233a;
+  --color-red-500: #ce3e5b;
+  --color-red-400: #FF5C7C;
+  --color-red-300: #f18097;
+  --color-red-200: #f398aa;
+  --color-red-100: #ffaebe;
+  
+  // --- color verde
+  --color-green-700: #1b693c;
+  --color-green-600: #22864c;
+  --color-green-500: #2ca55e;
+  --color-green-400: #4ACF81;
+  --color-green-300: #77e6a5;
+  --color-green-200: #94f5bc;
+  --color-green-100: #a3ffca;
+  
+  // --- color verde
+  --color-yellow-700: #806523;
+  --color-yellow-600: #a38435;
+  --color-yellow-500: #cfa948;
+  --color-yellow-400: #F1C65B;
+  --color-yellow-300: #f3d17c;
+  --color-yellow-200: #fcdf97;
+  --color-yellow-100: #ffe39e;
+
+  // --- color blanco
+  --color-white-100: #ffffff;
+}
+
+:root {
+  // --- Background
+  --bg-purple-hight:        var(--color-purple-700);
+  --bg-purple-dark:         var(--color-purple-600);
+  --bg-purple-medium:       var(--color-purple-500);
+  --bg-purple-regular:      var(--color-purple-400);
+  --bg-purple-low:          var(--color-purple-300);
+  --bg-purple-light:        var(--color-purple-200);
+  --bg-purple-extra-light:  var(--color-purple-100);
+
+  --bg-orange-regular:      var(--color-orange-400);
+  --bg-light-blue-regular:  var(--color-light-blue-400);
+  --bg-red-regular:         var(--color-red-400);
+  --bg-green-regular:       var(--color-green-400);
+  --bg-yellow-regular:      var(--color-yellow-400);
+  
+  // --- Color
+  --c-purple-extra-light:   var(--color-purple-100);
+  --c-white-extra-light:    var(--color-white-100);
+  --c-orange-regular:       var(--color-orange-400);
+  --c-light-blue-regular:   var(--color-light-blue-400);
+  --c-red-regular:          var(--color-red-400);
+  --c-green-regular:        var(--color-green-400);
+  --c-yellow-regular:       var(--color-yellow-400);
+}
